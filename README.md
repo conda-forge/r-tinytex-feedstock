@@ -5,11 +5,9 @@ Home: https://github.com/yihui/tinytex
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tinytex-feedstock/blob/master/LICENSE.txt)
 
 Summary: Helper functions to install and maintain the 'LaTeX' distribution named 'TinyTeX' (<https://yihui.name/tinytex/>), a lightweight, cross-platform, portable, and easy-to-maintain version of 'TeX Live'. This package also contains helper functions to compile 'LaTeX' documents, and install missing 'LaTeX' packages automatically.
-
-
 
 Current build status
 ====================
