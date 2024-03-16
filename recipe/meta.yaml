@@ -1,4 +1,4 @@
-{% set version = "0.49" %}
+{% set version = "0.50" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tinytex_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tinytex/tinytex_{{ version }}.tar.gz
-  sha256: 941169ec65445d172658d0fb6ea8d839736f3f1b5f6ce20637d7d8e299663145
+  sha256: b4846eae816ff09cd24e95b3f14286fb2e190e5084cf7e2b2793ac7100bd6086
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
