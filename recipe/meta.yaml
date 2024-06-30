@@ -1,6 +1,5 @@
 {% set version = "0.51" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-tinytex
@@ -13,8 +12,7 @@ source:
   sha256: bb113b51b4b58e78902a0220d709650c1458a8c6d3fa03f58ba007f0eb74c8ea
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
