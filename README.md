@@ -144,5 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@ConorIA](https://github.com/ConorIA/)
-* [@conda-forge/r](https://github.com/conda-forge/r/)
+* [@conda-forge/r](https://github.com/orgs/conda-forge/teams/r/)
 
