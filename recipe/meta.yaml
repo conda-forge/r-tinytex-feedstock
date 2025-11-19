@@ -1,4 +1,4 @@
-{% set version = "0.57" %}
+{% set version = "0.58" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tinytex_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tinytex/tinytex_{{ version }}.tar.gz
-  sha256: 320de051936704a9bbf9a641771e372666f7b6ee228b4d05ffe71d1020add916
+  sha256: c8a4b2bbbe751fdb3547331f4ab3b22f6d50702c9e67bb91c5356405a88ea94f
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
