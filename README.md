@@ -3,7 +3,7 @@ About r-tinytex-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tinytex-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/yihui/tinytex
+Home: https://github.com/rstudio/tinytex
 
 Package license: MIT
 
